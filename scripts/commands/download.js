@@ -1,19 +1,12 @@
-module.exports = {
-config:{
-  name: "download",
-  version: "1.0.0",
-  permission: 0,
-  prefix: true,
-  credits: "Nayan",
-  description: "Social Media Video Downloader",
-  category: "user",
-  usages: [
-    "/download [Facebook video link]",
-    "/download [TikTok video link]",
-    "/download [YouTube video link]",
-    "/download [Instagram video link]",
-  ],
-  cooldowns: 5,
+module.exports.config = {
+  name: "fb",
+  version: "1.0.",
+  hasPermssion: 0,
+  credits: "Islamick Chat",
+  description: "Fb Vid Downloader",
+  commandCategory: "other",
+  usages: "fb video link",
+  cooldowns: 2,
   dependencies: {
         'nayan-media-downloader': '',
   }
@@ -23,12 +16,12 @@ config:{
     "vi": {},
         "en": {
             "urlinvalid": 'Unsupported video platform. Please provide a valid Facebook, TikTok, Twitter, Instagram, or YouTube video link.',
-          "waitfb": 'Downloading Facebook video. Please wait...',
-          "downfb": "Download Facebook Video Successfully",
-          "waittik": 'Downloading TikTok video. Please wait....!',
-          "waitinsta": 'Downloading Instagram video. Please wait...',
-          "downinsta": 'Instagram video downloadsuccess',
-          "waityt": 'Downloading YouTube video. Please wait...',
+          "waitfb": '𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐯𝐢𝐝𝐞𝐨 𝐅𝐫𝐨𝐦 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐢𝐚𝐭......\n===== 𝐍𝐀𝐙𝐑𝐔𝐋 𝐁𝐎𝐓 =====',
+          "downfb": "𝐒𝐞𝐧𝐝𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐕𝐢𝐝𝐞𝐨\n===== 𝐍𝐀𝐙𝐑𝐔𝐋 𝐁𝐎𝐓 =====",
+          "waittik": '𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐯𝐢𝐝𝐞𝐨 𝐅𝐫𝐨𝐦 𝐓𝐢𝐤𝐓𝐨𝐤 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐢𝐚𝐭......\n===== 𝐍𝐀𝐙𝐑𝐔𝐋 𝐁𝐎𝐓 =====',
+          "waitinsta": '𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐯𝐢𝐝𝐞𝐨 𝐅𝐫𝐨𝐦 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐢𝐚𝐭......\n===== 𝐍𝐀𝐙𝐑𝐔𝐋 𝐁𝐎𝐓 =====',
+          "downinsta": '𝐒𝐞𝐧𝐝𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐕𝐢𝐝𝐞𝐨\n===== 𝐍𝐀𝐙𝐑𝐔𝐋 𝐁𝐎𝐓 =====',
+          "waityt": '𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐢𝐧𝐠 𝐯𝐢𝐝𝐞𝐨 𝐅𝐫𝐨𝐦 𝐘𝐨𝐮𝐓𝐮𝐛𝐞 𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐢𝐚𝐭......\n===== 𝐍𝐀𝐙𝐑𝐔𝐋 𝐁𝐎𝐓 =====',
           "waittw": 'Downloading Twitter video. Please wait...',
           "downtw": 'Twitter video download success',
           "error": '❌Error'
